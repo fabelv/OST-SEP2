@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/08-DesignPatterns-Java.iml" filepath="$PROJECT_DIR$/.idea/08-DesignPatterns-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Starter/Adapter/Adapter.iml" filepath="$PROJECT_DIR$/Starter/Adapter/Adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/Adapter/Adapter1.iml" filepath="$PROJECT_DIR$/Solution/Adapter/Adapter1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/Decorator/Decorator.iml" filepath="$PROJECT_DIR$/Solution/Decorator/Decorator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Starter/Decorator/Decorator1.iml" filepath="$PROJECT_DIR$/Starter/Decorator/Decorator1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/Observer/Observer.iml" filepath="$PROJECT_DIR$/Solution/Observer/Observer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Starter/Observer/Observer1.iml" filepath="$PROJECT_DIR$/Starter/Observer/Observer1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Starter/SimpleFactory/SimpleFactory.iml" filepath="$PROJECT_DIR$/Starter/SimpleFactory/SimpleFactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/SimpleFactory/SimpleFactory1.iml" filepath="$PROJECT_DIR$/Solution/SimpleFactory/SimpleFactory1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/State/State.iml" filepath="$PROJECT_DIR$/Solution/State/State.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Starter/State/State1.iml" filepath="$PROJECT_DIR$/Starter/State/State1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Starter/Strategy/Strategy.iml" filepath="$PROJECT_DIR$/Starter/Strategy/Strategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solution/Strategy/Strategy1.iml" filepath="$PROJECT_DIR$/Solution/Strategy/Strategy1.iml" />
+    </modules>
+  </component>
+</project>

@@ -2,6 +2,8 @@
 {
     using System;
     using System.Collections.Generic;
+    using Strategy.Ducks;
+    using Strategy.Quacks;
 
     // ReSharper disable once ClassNeverInstantiated.Global
     public class Program

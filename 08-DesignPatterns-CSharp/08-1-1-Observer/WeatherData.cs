@@ -1,14 +1,19 @@
-﻿namespace Observer
-{
-    public sealed class WeatherData : WeatherAPI
-    {
-        private readonly IView _view1, _view2, _view3;
+﻿using System.Collections.Generic;
 
-        public WeatherData()
+namespace Observer
+{
+    public sealed class WeatherData : WeatherAPI, IWeatherData
+    {
+        private List<IView> _observers = new List<IView>();
+
+        public void Attach(IView view)
         {
-            _view1 = new ConsoleView(1);
-            _view2 = new ConsoleView(2);
-            _view3 = new ConsoleView(3);
+            _observers.Add(view);
+        }
+
+        public void Unattach(IView view)
+        {
+            _observers.Remove(view);
         }
 
         protected override void MeasurementChanged()
@@ -17,9 +22,10 @@
             var humidity = GetHumidity();
             var windSpeed = GetWindSpeed();
 
-            _view1.Update(temperature, humidity, windSpeed);
-            _view2.Update(temperature, humidity, windSpeed);
-            _view3.Update(temperature, humidity, windSpeed);
+            foreach (var observer in _observers)
+            {
+                observer.Update(temperature, humidity, windSpeed);
+            }
         }
     }
 }

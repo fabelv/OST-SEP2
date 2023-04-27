@@ -15,6 +15,14 @@
             partner.Kiss();
             partner.Insult();
             partner.Insult();
+            partner.Kiss();
+            partner.Kiss();
+            partner.Kiss();
+            partner.Kiss();
+            partner.Kiss();
+            partner.Kiss();
+            partner.Talk();
+
         }
     }
 }
